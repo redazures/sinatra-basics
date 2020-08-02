@@ -1,7 +1,7 @@
-class Application < Sinatra::Base
-
+class MyToDoApp < Sinatra::Base
+ 
   get '/' do
     "Hello, World!"
   end
-
+ 
 end
